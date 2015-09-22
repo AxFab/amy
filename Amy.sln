@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bms", "Bms.csproj", "{2D043528-8BC6-4947-A1F5-1FD9DCCDB33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Niut", "Niut.csproj", "{A96075F4-8A87-46E4-9A92-A659FCFE5689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amy", "Amy.csproj", "{65AB1867-8EEF-43E3-97FC-F3282E355354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmyT0", "AmyT0.csproj", "{B44897D9-63D2-4213-983B-AA86752C9F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmyLegacy", "AmyLegacy.csproj", "{F651D917-97A3-4338-9615-FD4E9A24946B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D043528-8BC6-4947-A1F5-1FD9DCCDB33C}.Debug|x86.ActiveCfg = Debug|x86
+		{2D043528-8BC6-4947-A1F5-1FD9DCCDB33C}.Debug|x86.Build.0 = Debug|x86
+		{A96075F4-8A87-46E4-9A92-A659FCFE5689}.Debug|x86.ActiveCfg = Debug|x86
+		{A96075F4-8A87-46E4-9A92-A659FCFE5689}.Debug|x86.Build.0 = Debug|x86
+		{65AB1867-8EEF-43E3-97FC-F3282E355354}.Debug|x86.ActiveCfg = Debug|x86
+		{65AB1867-8EEF-43E3-97FC-F3282E355354}.Debug|x86.Build.0 = Debug|x86
+		{B44897D9-63D2-4213-983B-AA86752C9F57}.Debug|x86.ActiveCfg = Debug|x86
+		{B44897D9-63D2-4213-983B-AA86752C9F57}.Debug|x86.Build.0 = Debug|x86
+		{F651D917-97A3-4338-9615-FD4E9A24946B}.Debug|x86.ActiveCfg = Debug|x86
+		{F651D917-97A3-4338-9615-FD4E9A24946B}.Debug|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

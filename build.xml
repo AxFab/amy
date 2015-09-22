@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Amy">
+  <Guid>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Guid>
+
+  <Delivery name="AmyLegacy" type="program" language="C#">    
+    <Source>Amy/*.cs</Source>   
+    <Source>Amy.Lexer/*.cs</Source>
+    <Source>Amy.Expressions/*.cs</Source>
+    <Source>Amy.Syntax/*.cs</Source>
+  </Delivery>
+
+  <Delivery name="Niut" type="program" language="C#">
+    <Guid>{A96075F4-8A87-46E4-9A92-A659FCFE5689}</Guid>
+    <Source>Niut/*.cs</Source>
+  </Delivery>
+
+  <Delivery name="Bms" type="program" language="C#">
+    <Guid>{2D043528-8BC6-4947-A1F5-1FD9DCCDB33C}</Guid>
+    <Source>Bms/*.cs</Source>
+    <Source>Properties/AssemblyInfo.cs</Source>
+  </Delivery>
+
+  <Delivery name="Amy" type="program" language="C#">
+    <Guid>{65AB1867-8EEF-43E3-97FC-F3282E355354}</Guid>
+    <Source>Amy/*.cs</Source>
+    <Source>Amy.Lexer/*.cs</Source>
+    <Source>Amy.Syntax/*.cs</Source>
+    <Source>Amy.Test/*.cs</Source>
+    <Source>Properties/AssemblyInfo.cs</Source>
+  </Delivery>
+
+  <Delivery name="AmyT0" type="program" language="C#">
+    <Guid>{B44897D9-63D2-4213-983B-AA86752C9F57}</Guid>
+    <Source>Amy.Expressions/*.cs</Source>
+    <Source>Amy.Test/TestExpression.cs</Source>
+    <Source>Properties/AmySuite.cs</Source>
+    <Source>Properties/AmyInfo.cs</Source>
+    <Reference>Niut</Reference>
+  </Delivery>
+
+</Project>
